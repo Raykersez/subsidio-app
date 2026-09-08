@@ -4,6 +4,7 @@ const NAV = [
   { label: "El problema", href: "#problema" },
   { label: "Cómo funciona", href: "#como-funciona" },
   { label: "Beneficios", href: "#beneficios" },
+  { label: "Consulta", href: "#consulta" },
   { label: "Preguntas", href: "#preguntas" },
 ]
 
@@ -34,7 +35,7 @@ export function SiteHeader() {
         </nav>
 
         <a
-          href="#preguntas"
+          href="#consulta"
           className="inline-flex h-10 items-center rounded-full bg-primary px-5 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/90"
         >
           Consultar
