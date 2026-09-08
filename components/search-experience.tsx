@@ -63,7 +63,16 @@ export function SearchExperience() {
   }
 
   return (
-    <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 md:py-16 lg:px-8">
+    <section id="preguntas" className="mx-auto max-w-3xl px-4 py-16 sm:px-6 md:py-20 lg:px-8">
+      <div className="mx-auto mb-8 max-w-2xl text-center">
+        <span className="text-sm font-semibold uppercase tracking-wide text-primary">Preguntas frecuentes</span>
+        <h2 className="mt-3 text-balance text-2xl font-bold tracking-tight text-foreground sm:text-3xl">
+          Resuelve tus dudas sobre el subsidio
+        </h2>
+        <p className="mt-4 text-pretty leading-relaxed text-muted-foreground">
+          Escribe tu pregunta y nuestro buscador te mostrará las respuestas más parecidas al instante.
+        </p>
+      </div>
       <div className="rounded-3xl border border-border/70 bg-card p-6 shadow-sm sm:p-8">
         <SearchBar
           value={query}
