@@ -4,6 +4,7 @@ import { Problema } from "@/components/problema"
 import { ComoFunciona } from "@/components/como-funciona"
 import { Beneficios } from "@/components/beneficios"
 import { Testimonio } from "@/components/testimonio"
+import { ConsultaDocumento } from "@/components/consulta-documento"
 import { SearchExperience } from "@/components/search-experience"
 import { Footer } from "@/components/footer"
 
@@ -17,6 +18,7 @@ export default function Page() {
         <ComoFunciona />
         <Beneficios />
         <Testimonio />
+        <ConsultaDocumento />
         <SearchExperience />
       </main>
       <Footer />
