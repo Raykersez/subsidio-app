@@ -7,59 +7,59 @@ export type Faq = {
 
 export const faqs: Faq[] = [
   {
-    id: "registro",
-    question: "¿Cómo registrarme?",
+    id: "que-es",
+    question: "¿Qué es Subsidio App y a quién está dirigido?",
     answer:
-      "Para registrarte, ingresa a la sección de registro con tu documento de identidad (DNI o carné de extranjería). Completa tus datos personales, verifica tu número de teléfono con el código que recibirás por SMS y crea una contraseña segura. El registro es gratuito y toma menos de 5 minutos.",
-    keywords: ["registrarme", "registro", "registrar", "crear", "cuenta", "inscribirme", "afiliarme", "empezar"],
+      "Subsidio App es un programa de subsidio focalizado con tarjeta y billetera digital cerrada, dirigido a las familias de nivel socioeconómico D y E que viven en la periferia de Lima. Busca reducir el gasto desproporcionado en transporte y servicios básicos, devolviendo horas de vida y tranquilidad a los hogares vulnerables.",
+    keywords: ["que es", "programa", "subsidio", "dirigido", "quien", "familias", "d y e", "nivel socioeconomico"],
   },
   {
     id: "elegibilidad",
     question: "¿Cómo saber si pertenezco al programa?",
     answer:
-      "Puedes verificar tu elegibilidad ingresando tu número de documento en la sección 'Consultar mi estado'. El sistema revisa automáticamente el padrón oficial de beneficiarios según tu clasificación socioeconómica. Si perteneces al programa, verás tu estado como 'Beneficiario activo'.",
+      "Puedes verificar tu elegibilidad acercándote a un comedor o espacio de apoyo vecinal habilitado, donde se valida tu situación según el padrón oficial y tu clasificación socioeconómica. El sistema prioriza a las familias de NSE D y E en zonas vulnerables. Si calificas, te registran como beneficiario activo.",
     keywords: ["pertenezco", "programa", "elegible", "beneficiario", "califico", "padron", "estado", "saber"],
   },
   {
-    id: "uso-app",
-    question: "¿Cómo usar la aplicación?",
+    id: "registro",
+    question: "¿Cómo me registro en el programa?",
     answer:
-      "Una vez registrado, desde el panel principal podrás consultar el estado de tu subsidio, revisar el historial de pagos, actualizar tus datos y encontrar los puntos de cobro más cercanos. La aplicación está disponible las 24 horas y funciona en celulares, tablets y computadoras.",
-    keywords: ["usar", "aplicacion", "app", "funciona", "navegar", "utilizar", "manejar"],
+      "El registro se realiza de forma presencial en los centros físicos del barrio (comedores y espacios de apoyo vecinal) para que sea accesible a todos, sin depender de trámites digitales complicados. Solo necesitas tu documento de identidad y validar tus datos. Es gratuito y el personal te acompaña en el proceso.",
+    keywords: ["registrarme", "registro", "registrar", "inscribirme", "afiliarme", "empezar", "comedor", "presencial"],
   },
   {
     id: "tarjeta",
-    question: "¿Cómo registrar mi tarjeta de subsidio?",
+    question: "¿Cómo funciona la tarjeta y la billetera digital?",
     answer:
-      "Para registrar tu tarjeta, ve a 'Mis medios de cobro' y selecciona 'Agregar tarjeta'. Ingresa el número de 16 dígitos que aparece en tu tarjeta de subsidio y confirma con tu documento de identidad. Una vez validada, podrás usarla para recibir tus depósitos y realizar cobros.",
-    keywords: ["tarjeta", "registrar tarjeta", "cobro", "medio de pago", "activar tarjeta", "vincular"],
+      "Tu tarjeta está vinculada a una billetera digital cerrada: el saldo del subsidio solo puede usarse en los servicios habilitados, como transporte y servicios básicos. Esto garantiza que la ayuda se destine a su propósito. Cada consumo se descuenta al instante y queda registrado en tu historial.",
+    keywords: ["tarjeta", "billetera", "digital", "cerrada", "saldo", "como funciona", "wallet", "cobro"],
   },
   {
-    id: "monto",
-    question: "¿Cuánto es el monto del subsidio y cada cuánto se paga?",
+    id: "transporte",
+    question: "¿Qué transportes y servicios puedo subsidiar?",
     answer:
-      "El monto del subsidio depende de tu clasificación en el programa y de la composición de tu hogar. Los depósitos se realizan de forma periódica, generalmente cada dos meses. Puedes ver el monto exacto y la fecha del próximo pago en la sección 'Mis pagos'.",
-    keywords: ["monto", "cuanto", "dinero", "pago", "cuando", "deposito", "frecuencia", "cobrar"],
+      "Puedes usar el subsidio en pasajes de combi, corredores complementarios, Metropolitano, tren eléctrico y aplicativos de viaje. También cubre servicios básicos como agua y luz, y compras en aliados como bodegas, minimarkets y supermercados de la red.",
+    keywords: ["transporte", "combi", "metropolitano", "tren", "corredores", "servicios", "agua", "luz", "pasajes"],
   },
   {
-    id: "cobro",
-    question: "¿Dónde y cómo puedo cobrar mi subsidio?",
+    id: "recarga",
+    question: "¿Dónde puedo recargar o consultar mi saldo?",
     answer:
-      "Puedes cobrar tu subsidio en agentes autorizados, cajeros de la red del programa o mediante retiro sin tarjeta usando un código temporal generado en la aplicación. En la sección 'Puntos de cobro' encontrarás un mapa con los lugares habilitados más cercanos a tu ubicación.",
-    keywords: ["donde", "cobrar", "retirar", "agente", "cajero", "puntos", "efectivo", "sacar dinero"],
+      "Puedes consultar tu saldo y movimientos en los centros de validación del barrio y en los puntos aliados de la red. Los depósitos del subsidio se cargan de forma periódica y automática a tu billetera, sin que tengas que hacer trámites adicionales.",
+    keywords: ["recargar", "saldo", "consultar", "movimientos", "puntos", "aliados", "deposito", "donde"],
   },
   {
-    id: "datos",
-    question: "¿Cómo actualizo mis datos personales o de contacto?",
+    id: "transparencia",
+    question: "¿Cómo se garantiza que el subsidio sea transparente?",
     answer:
-      "Ingresa a 'Mi perfil' para actualizar tu dirección, número de teléfono o correo electrónico. Mantener tus datos al día es importante para que recibas notificaciones sobre tus pagos y cualquier novedad del programa. Algunos cambios pueden requerir una verificación adicional.",
-    keywords: ["actualizar", "datos", "cambiar", "perfil", "direccion", "telefono", "correo", "modificar"],
+      "Todo el sistema es auditable: cada depósito y cada consumo queda registrado y puede ser revisado. La billetera cerrada evita el mal uso de los fondos y el historial de transacciones da trazabilidad completa, generando confianza tanto para las familias como para las autoridades.",
+    keywords: ["transparente", "transparencia", "auditar", "confianza", "registrado", "trazabilidad", "control"],
   },
   {
-    id: "problemas",
-    question: "No recibí mi pago, ¿qué debo hacer?",
+    id: "historial",
+    question: "¿Mi historial me sirve para créditos o el título de propiedad?",
     answer:
-      "Si no recibiste un pago que esperabas, primero verifica en 'Mis pagos' que tu estado siga activo y que tus medios de cobro estén registrados correctamente. Si todo está en orden pero el pago no aparece, comunícate con el centro de atención desde la sección de contacto para que revisemos tu caso.",
-    keywords: ["no recibi", "problema", "error", "no llego", "reclamo", "ayuda", "pago pendiente", "falla"],
+      "Sí. A medida que usas tu billetera de forma responsable, construyes un historial de transacciones que genera confianza en el ecosistema. A futuro, ese historial puede ayudarte a acceder a créditos o a avanzar en la formalización del título de propiedad de tu lote.",
+    keywords: ["historial", "credito", "creditos", "titulo", "propiedad", "formalizar", "beneficios", "futuro"],
   },
 ]

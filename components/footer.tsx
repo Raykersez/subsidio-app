@@ -16,7 +16,8 @@ export function Footer() {
               <span className="text-lg font-semibold text-foreground">Subsidio App</span>
             </div>
             <p className="max-w-xs text-sm leading-relaxed text-muted-foreground">
-              Acercamos el programa de subsidios a las familias que más lo necesitan, con información clara y accesible.
+              Subsidio focalizado y billetera digital para las familias de la periferia de Lima. Devolvemos horas de
+              vida, con dignidad, seguridad y transparencia.
             </p>
           </div>
 

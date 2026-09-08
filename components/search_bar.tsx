@@ -5,10 +5,10 @@ import { Search, Loader2 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const EXAMPLE_QUESTIONS = [
-  "¿Cómo registrarme?",
+  "¿Qué es Subsidio App?",
   "¿Cómo saber si pertenezco al programa?",
-  "¿Cómo usar la aplicación?",
-  "¿Cómo registrar mi tarjeta de subsidio?",
+  "¿Qué transportes puedo subsidiar?",
+  "¿El subsidio es transparente?",
 ]
 
 type SearchBarProps = {
